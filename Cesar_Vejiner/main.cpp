@@ -18,7 +18,7 @@ int main(int argc, char* argv[])
 	ifstream infile;
 	infile.open(argv[1], ios::in);
 	ofstream outfile;
-	outfile.open(argv[2], ios::trunc);
+	outfile.open(argv[2], ios::out);
 	if ((infile.fail()) || (outfile.fail()))
 	{
 		cout << "Error: openning file.\n";
