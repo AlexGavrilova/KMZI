@@ -33,7 +33,7 @@ int main(int argc, char* argv[])
 	{
 	case 1:
 	{
-			  cout << "1. Encryption \n2. Decruption\n";
+			  cout << "1. Encryption \n2. Decryption\n";
 			  cin >> EnDec;
 			  char brr;
 			  int shift = atoi(argv[3]) % 256;
@@ -58,7 +58,7 @@ int main(int argc, char* argv[])
 	}
 	case 2:
 	{
-			  cout << "1. Encryption \n2. Decruption\n";
+			  cout << "1. Encryption \n2. Decryption\n";
 			  cin >> EnDec;
 			  char brr;
 			  string s = argv[3];
