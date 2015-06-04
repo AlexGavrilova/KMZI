@@ -43,6 +43,16 @@ int main(int argc, char* argv[])
     vector<unsigned char> mas_wav = read(wavFile);
     vector<unsigned char> mas_txt = read(txtFile);
     
+    for (int i = 8; i < 12; i++)
+	{
+		tmp += mas_wav[i];
+	}
+	if (tmp != wav)
+	{
+		cout << "Error! This file isn't wav file!";
+		return 0;
+	}
+    
     if (mas_wav.size() - 44 < mas_txt.size() * 8)
     {
         cout << "Error! Increase wav file capacity." << endl;
