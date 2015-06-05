@@ -1,5 +1,5 @@
 
-//  Stegonagrathya
+//  Steganography
 
 #include <iostream>
 #include <vector>
